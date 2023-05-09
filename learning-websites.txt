@@ -1,0 +1,13 @@
+1. https://cleanup.pictures/ (image main se extra chejey hataane le liye upyog ki jaye gi)  
+2. https://underscores.me/ (custom wordpress theme banaane ke liye)
+3. https://picsum.photos/    and    https://cloudinary.com/console/c-df7845cdd32a6b270695f838d0cf29/getting-started (is website se hum random particular size ki random images laga sakte h only 1 link se
+4. https://www.w3schools.com/cssref/playdemo.php?filename=playcss_hyphens  (test css)
+5. https://bennettfeely.com/clippy/ (is website se hum html image ko alag alag tarah ki shape de sakte h)
+6. https://www.w3schools.blog/disable-selected-text-css  (all browser support webkit yaha se mile gi)
+7. https://openai.com/dall-e-2/ (ye bahut badhiya website h jis se hum ek image ke bahut sare varint bana sakte h)
+8. https://midjourney.com/home/?callbackUrl=https%3A%2F%2Fwww.midjourney.com%2Faccount%2F (all types images bana sakte h )
+9. https://www.cutout.pro/ (passport size photo bana sakte h)
+10. https://www.futuretools.io/?tags-n5zn=social-media (sabhi ai website mil jati h yaha se)
+11. https://designer.microsoft.com/  (is website se hum kisi bhi tarah ka banner key type karke bana sakte h aur ye bilkul free h)
+12. 
+

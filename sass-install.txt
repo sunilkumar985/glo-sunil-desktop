@@ -1,0 +1,153 @@
+Microsoft Windows [Version 10.0.22000.978]
+(c) Microsoft Corporation. All rights reserved.
+
+F:\2022\september\29-09-2022>mkdir sass-series
+
+F:\2022\september\29-09-2022>cd sass-series
+
+F:\2022\september\29-09-2022\sass-series>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package andsave it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (sass-series) sass
+version: (1.0.0)
+description: Lean Sass
+entry point: (index.js)
+test command:
+git repository:
+keywords: Sass, Learn Sass
+author: Sunil Kumar
+license: (ISC)
+About to write to F:\2022\september\29-09-2022\sass-series\package.json:
+
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "Lean Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Sass",
+    "Learn",
+    "Sass"
+  ],
+  "author": "Sunil Kumar",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+F:\2022\september\29-09-2022\sass-series>code .
+
+F:\2022\september\29-09-2022\sass-series>npm install node-sass --save
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+
+added 240 packages, and audited 241 packages in 14s
+
+19 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+F:\2022\september\29-09-2022\sass-series>npm run compile-sass
+npm ERR! Missing script: "compile-sass"
+npm ERR!
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\LENOVO\AppData\Local\npm-cache\_logs\2022-09-29T05_25_39_073Z-debug-0.log
+
+F:\2022\september\29-09-2022\sass-series>npm run compile-sass
+
+> sass@1.0.0 compile-sass
+> node-sass scss/style.scss css/style.css
+
+Rendering Complete, saving .css file...
+Wrote CSS to F:\2022\september\29-09-2022\sass-series\css\style.css
+
+F:\2022\september\29-09-2022\sass-series>
+
+F:\2022\september\29-09-2022\sass-series>
+
+F:\2022\september\29-09-2022\sass-series>npm run compile-sass
+
+> sass@1.0.0 compile-sass
+> node-sass SCSS/style.scss css/style.css
+
+Rendering Complete, saving .css file...
+Wrote CSS to F:\2022\september\29-09-2022\sass-series\css\style.css
+
+F:\2022\september\29-09-2022\sass-series>npm run compile-sass
+
+> sass@1.0.0 compile-sass
+> node-sass SCSS/style.scss css/style.css -w
+
+=> changed: F:\2022\september\29-09-2022\sass-series\SCSS\style.scss
+Rendering Complete, saving .css file...
+Wrote CSS to F:\2022\september\29-09-2022\sass-series\css\style.css
+=> changed: F:\2022\september\29-09-2022\sass-series\SCSS\style.scss
+Rendering Complete, saving .css file...
+Wrote CSS to F:\2022\september\29-09-2022\sass-series\css\style.css
+=> changed: F:\2022\september\29-09-2022\sass-series\SCSS\style.scss
+{
+  "status": 1,
+  "file": "F:/2022/september/29-09-2022/sass-series/SCSS/style.scss",
+  "line": 17,
+  "column": 2,
+  "message": "Invalid CSS after \"}\": expected \"}\", was \"\"",
+  "formatted": "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\n        on line 17 of SCSS/style.scss\n>> }\r\n   -^\n"
+}
+=> changed: F:\2022\september\29-09-2022\sass-series\SCSS\style.scss
+Rendering Complete, saving .css file...
+Wrote CSS to F:\2022\september\29-09-2022\sass-series\css\style.css
+=> changed: F:\2022\september\29-09-2022\sass-series\SCSS\style.scss
+Rendering Complete, saving .css file...
+Wrote CSS to F:\2022\september\29-09-2022\sass-series\css\style.css
+=> changed: F:\2022\september\29-09-2022\sass-series\SCSS\style.scss
+Rendering Complete, saving .css file...
+Wrote CSS to F:\2022\september\29-09-2022\sass-series\css\style.css
+=> changed: F:\2022\september\29-09-2022\sass-series\SCSS\style.scss
+Rendering Complete, saving .css file...
+Wrote CSS to F:\2022\september\29-09-2022\sass-series\css\style.css
+=> changed: F:\2022\september\29-09-2022\sass-series\SCSS\style.scss
+Rendering Complete, saving .css file...
+Wrote CSS to F:\2022\september\29-09-2022\sass-series\css\style.css
+=> changed: F:\2022\september\29-09-2022\sass-series\SCSS\style.scss
+Rendering Complete, saving .css file...
+Wrote CSS to F:\2022\september\29-09-2022\sass-series\css\style.css
+=> changed: F:\2022\september\29-09-2022\sass-series\SCSS\style.scss
+Rendering Complete, saving .css file...
+Wrote CSS to F:\2022\september\29-09-2022\sass-series\css\style.css
+=> changed: F:\2022\september\29-09-2022\sass-series\SCSS\style.scss
+{
+  "status": 3,
+  "message": "File to read not found or unreadable: F:/2022/september/29-09-2022/sass-series/SCSS/style.scss",
+  "formatted": "Internal Error: File to read not found or unreadable: F:/2022/september/29-09-2022/sass-series/SCSS/style.scss\n"
+}
+=> changed: F:\2022\september\29-09-2022\sass-series\SCSS\style.scss
+Rendering Complete, saving .css file...
+Wrote CSS to F:\2022\september\29-09-2022\sass-series\css\style.css
+Terminate batch job (Y/N)?
+^C
+F:\2022\september\29-09-2022\sass-series>
+
+
+
+   short method
+For npm install globaly : npm install -g scss
+
+D:\Sass\assets\css>sass --watch style.scss style.css
+
+

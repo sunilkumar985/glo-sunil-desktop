@@ -1,0 +1,80 @@
+1.   smooth scroll bar page par apne according chalaana
+
+     link - https://ensable.com/new-details/?wname=empiretelecomnj.com#Updates
+	
+	/*code start*/
+	$(".tablinks").click(function(){
+         var t = $(this).attr('href');
+  if(window.matchMedia("(max-width: 767px)").matches){
+          $('html, body').animate({
+          scrollTop: $("div"+t).offset().top - 368
+        },400);
+            // The viewport is less than 768 pixels wide
+            
+        } else {
+           //alert('desktop');
+            $('html, body').animate({
+             
+          scrollTop: $("div"+t).offset().top - 125
+        },400);
+        }
+        });
+	/*code end*/
+
+2.   wordpress ki website main ssl certificatate lagaane ke liye ye code wp-config fille main sabse niche ye code daalna padta h
+     
+     define('FORCE_SSL_ADMIN',true);
+
+     and .htaccess fille main ye vala code lagaana h
+
+     RewriteCond %{HTTPS} !=on
+     RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+3.   chrome browser main table horizontal scrollbar width and height kam karne ke liye ye css hi lage gi
+	.tab::-webkit-scrollbar {
+        height: 5px;
+        width: 5px;
+      }
+
+4. react main custom tag bana ke use style karne ke liye ye use kiya jata h
+const tagname = styled(Box)({
+    width: '100vw',
+    height: '100vh',
+    backgroundColor: "yellow",
+});
+
+5. sx={{ bottom: { xs: 90, sm: 5 } }}  (mui main ek hi line main media query aise likhte h)
+
+6. '&:hover': {}  mui main hover is tarah likha jata h
+
+7. '& .MuiBadge-root': {marginRight: 4,},  (mui ki defalt classes ko select krne ke liye aisa likha jata h)
+
+8.  img: {}  (mui main image tag select krne ke liye)
+
+9. maxWidth: ['480px','480px','480px']  (mui main inline responsive value aise likhi jati h)
+
+10. const topMarginButton = currentItem.imageOnRight ? '366px' : '514px';  (fi else function h ye situation ke hisab se lage ga)
+
+11.   F:\2023\my-react-learning\node_modules\@mui\material\styles   (mui ke color theme ka path h)
+
+12. ( jab z index nhi lag raha ho to samjh lena h ki uske parent ko zindex kam laga hua h to fir parent ko position relative leke zindex zyada dena hota h )
+
+13.  text-emphasis: sesame; (is css ko browser main search kran h is se hum text word ke alag alag word ke upper koi bhi shape and icon le sakte h)
+
+14. text-orientation: upright; (is css se hum text to vertial position main likh sakte h  ye css browser search krni h)
+
+15. table-layout: fixed; width: 100%; (in dono css se hum table ke column ko baraabar width main baant sakte h)
+
+16. :placeholder-shown (jab tak placeholder dikhe ga tab tak hum is se input ko css de sakte h)
+
+17. font-size: clamp(36px,6.1vw,85px); (responsive font size ek hi jagah dena ho to ye lagta h)
+
+18. height: --webkit-fill-available; is css se hum height ko apne according set kr sakte h jaise niche se margin-bottom jitna lagaaye ge utni height kam rhe ge iske saath margin-bottom dena jaruri h
+
+19.  
+
+
+   
+
+          
+        
